@@ -12,4 +12,4 @@ services:
       - MIN_RAM=1G
       - MAX_CORES=4
 volumes:
-  minecraft:  
+  minecraft: 
