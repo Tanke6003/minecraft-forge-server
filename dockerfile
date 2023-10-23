@@ -3,7 +3,7 @@ RUN mkdir /minecraft
 #WORKDIR /minecraft
 ENV FORGE_VERSION=1.18-38.0.17 \
     MAX_RAM="6G" \
-    MIN_RAM="6G" \
+    MIN_RAM="4G" \
     SEED=""
 EXPOSE 25565
 RUN echo -e '#!/bin/sh' > /start.sh && \
