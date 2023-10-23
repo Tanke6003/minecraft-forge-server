@@ -1,4 +1,6 @@
+#FROM alpine:3.18
 FROM openjdk:18-jdk-alpine3.15
+#RUN apk update && apk add openjdk17-17.0.9_p8-r0.apk  
 RUN mkdir /minecraft
 #WORKDIR /minecraft
 ENV FORGE_VERSION=1.18-38.0.17 \

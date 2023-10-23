@@ -10,6 +10,6 @@ services:
       - FORGE_VERSION=1.18-38.0.17
       - MAX_RAM=12G
       - MIN_RAM=6G
-      - SEED= #2061879647305842158
+      - SEED=2061879647305842158
 volumes:
   minecraft: 
