@@ -1,7 +1,7 @@
 version: '3'
 services:
   minecraft-forge:
-    image:  minecraft-server-forge:1.0.2
+    image:  minecraft-server-forge:1.0.1
     ports:
       - "25565:25565"
     volumes:
@@ -10,6 +10,6 @@ services:
       - FORGE_VERSION=1.18-38.0.17
       - MAX_RAM=12G
       - MIN_RAM=6G
-      - SEED=2061879647305842158
+      - SEED=
 volumes:
   minecraft: 
