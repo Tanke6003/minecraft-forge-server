@@ -5,6 +5,12 @@ This image is designed to help you set up a Minecraft Forge server using Docker 
 
 The image is based on Alpine Linux, and all the necessary server files are downloaded using a script.
 
+[Link to my Docker image](https://hub.docker.com/r/tanke6003/minecraft-forge-server)
+
+[Link to my GitHub repository](https://github.com/Tanke6003/minecraft-forge-server)
+
+[Click here to tip me on PayPal!](https://paypal.me/Zoombeco)
+
 ## How to use this image
 
 The recommended tag to use is 'latest,' as it represents the latest long-term support release.
