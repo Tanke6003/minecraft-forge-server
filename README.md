@@ -3,7 +3,7 @@
 ## Description
 This image is designed to help you set up a Minecraft Forge server using Docker in just a few minutes. The image is available for multiple architectures, including linux/amd64, linux/arm64, and linux/arm/v7.
 
-The image is based on Alpine Linux, and all the necessary server files are downloaded using a script.
+The image is based on Linux, and all the necessary server files are downloaded using a script.
 
 [Link to my Docker image](https://hub.docker.com/r/tanke6003/minecraft-forge-server)
 
