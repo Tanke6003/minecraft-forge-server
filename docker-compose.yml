@@ -1,7 +1,7 @@
 version: '3'
 services:
   minecraft-forge:
-    image:  minecraft-server-forge:1.0.3
+    image: minecraft-server-forge:1.0.3 ##tanke6003/minecraft-forge-server
     ports:
       - "25565:25565"
       - "25575:25575"
