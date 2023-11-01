@@ -1,7 +1,7 @@
 version: '3'
 services:
   minecraft-forge:
-    image: minecraft-server-forge:1.0.3 ##tanke6003/minecraft-forge-server
+    image: minecraft-server-forge:1.0.3
     ports:
       - "25565:25565"
       - "25575:25575"
@@ -12,8 +12,7 @@ services:
       - MAX_RAM=6G
       - MIN_RAM=6G
       - SEED=
-      ##AGREGA UN TITULO CON COLORES Y COSAS QUE SORPRENDAN
-      ## que diga Sever minecraft forge con 3 colores
       - MOTD=§A§L§NServer §6§N§nMinecraft §M§L§NForge
+      - DIFFICULTY=3 
 volumes:
   minecraft:  
